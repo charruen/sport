@@ -1,0 +1,6078 @@
+{
+  "phases": [
+    {
+      "number": 1,
+      "title": "Fondations & Alignement",
+      "description": "Apprentissage du gainage, placement du dos et pompes inclinées meuble haut.",
+      "weeksRange": "Semaines 1 à 4"
+    },
+    {
+      "number": 2,
+      "title": "Baisse de l'Angle & Charge Triceps",
+      "description": "Pompes sur meuble moyen (table/bureau), montée en puissance des Dips.",
+      "weeksRange": "Semaines 5 à 9"
+    },
+    {
+      "number": 3,
+      "title": "Transition Sol & Phase Négative",
+      "description": "Premières pompes genoux au sol et travail négatif freiné.",
+      "weeksRange": "Semaines 10 à 14"
+    },
+    {
+      "number": 4,
+      "title": "Premières Pompes Stricte au Sol",
+      "description": "Passage aux pompes classiques pures au sol et Dips jambes tendues.",
+      "weeksRange": "Semaines 15 à 19"
+    },
+    {
+      "number": 5,
+      "title": "Consolidation Sol & Volume Pectoraux",
+      "description": "Montée en répétitions sur pompes classiques au sol et abdominaux.",
+      "weeksRange": "Semaines 20 à 24"
+    },
+    {
+      "number": 6,
+      "title": "Introduction de la Pompe Diamant",
+      "description": "Premières séries de Pompes Diamant (mains serrées en triangle) pour cibler les triceps.",
+      "weeksRange": "Semaines 25 à 28"
+    },
+    {
+      "number": 7,
+      "title": "Surcharges & Relief Abdominal",
+      "description": "Doublement des séries de Pompes Diamant et gainage renforcé.",
+      "weeksRange": "Semaines 29 à 32"
+    },
+    {
+      "number": 8,
+      "title": "Peak Performance & Bilan Final",
+      "description": "Maîtrise complète des Pompes Diamant (3x8 reps) et corps sculpté.",
+      "weeksRange": "Semaines 33 et 34"
+    }
+  ],
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "startDate": "05 oct. 2026",
+      "endDate": "11 oct. 2026",
+      "phaseNumber": 1,
+      "phaseTitle": "Fondations & Alignement",
+      "phaseDescription": "Apprentissage du gainage, placement du dos et pompes inclinées meuble haut.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w1_mon_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "Mains sur le haut du bureau/commode. Poitrine vers le bord du meuble, corps bien gainé."
+            },
+            {
+              "id": "w1_mon_ex2",
+              "name": "Dips sur chaise (genoux pliés)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 60,
+              "tip": "Mains sur le bord de la chaise stable, coudes vers l'arrière à 90°. Pieds bien à plat."
+            },
+            {
+              "id": "w1_mon_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s",
+              "restSeconds": 60,
+              "tip": "Coudes sous les épaules. Serre fort les fessiers et le nombril. Ne laisse pas le bas du dos creuser."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w1_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut."
+            },
+            {
+              "id": "w1_wed_ex2",
+              "name": "Rowing serviette / glissé au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Tire la serviette vers le haut du torse en contractant fort les omoplates."
+            },
+            {
+              "id": "w1_wed_ex3",
+              "name": "Extensions mollets sur marche",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 45,
+              "tip": "Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w1_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Mains aux tempes, décolle seulement les omoplates du sol en expirant. Ne tire pas la nuque."
+            },
+            {
+              "id": "w1_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "10/côté",
+              "restSeconds": 60,
+              "tip": "Planche sur les mains, pieds écartés. Touche l'épaule opposée sans pivoter le bassin."
+            },
+            {
+              "id": "w1_thu_ex3",
+              "name": "Gainage latéral sur coude",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20s/côté",
+              "restSeconds": 60,
+              "tip": "Corps aligné tête-bassin-chevilles. Pousse le bassin vers le plafond."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w1_fri_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "Mouvement fluide et contrôlé. Inspire en descendant, expire en poussant."
+            },
+            {
+              "id": "w1_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 60,
+              "tip": "Garde les épaules basses, ne hausse pas les épaules vers les oreilles."
+            },
+            {
+              "id": "w1_fri_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s",
+              "restSeconds": 60,
+              "tip": "Respiration régulière pendant tout le maintien."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 2,
+      "startDate": "12 oct. 2026",
+      "endDate": "18 oct. 2026",
+      "phaseNumber": 1,
+      "phaseTitle": "Fondations & Alignement",
+      "phaseDescription": "Apprentissage du gainage, placement du dos et pompes inclinées meuble haut.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w2_mon_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 90,
+              "tip": "Mains sur le haut du bureau/commode. Poitrine vers le bord du meuble, corps bien gainé."
+            },
+            {
+              "id": "w2_mon_ex2",
+              "name": "Dips sur chaise (genoux pliés)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 60,
+              "tip": "Mains sur le bord de la chaise stable, coudes vers l'arrière à 90°. Pieds bien à plat."
+            },
+            {
+              "id": "w2_mon_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s",
+              "restSeconds": 60,
+              "tip": "Coudes sous les épaules. Serre fort les fessiers et le nombril. Ne laisse pas le bas du dos creuser."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w2_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut."
+            },
+            {
+              "id": "w2_wed_ex2",
+              "name": "Rowing serviette / glissé au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Tire la serviette vers le haut du torse en contractant fort les omoplates."
+            },
+            {
+              "id": "w2_wed_ex3",
+              "name": "Extensions mollets sur marche",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 45,
+              "tip": "Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w2_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "13",
+              "restSeconds": 60,
+              "tip": "Mains aux tempes, décolle seulement les omoplates du sol en expirant. Ne tire pas la nuque."
+            },
+            {
+              "id": "w2_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "10/côté",
+              "restSeconds": 60,
+              "tip": "Planche sur les mains, pieds écartés. Touche l'épaule opposée sans pivoter le bassin."
+            },
+            {
+              "id": "w2_thu_ex3",
+              "name": "Gainage latéral sur coude",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20s/côté",
+              "restSeconds": 60,
+              "tip": "Corps aligné tête-bassin-chevilles. Pousse le bassin vers le plafond."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w2_fri_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 90,
+              "tip": "Mouvement fluide et contrôlé. Inspire en descendant, expire en poussant."
+            },
+            {
+              "id": "w2_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 60,
+              "tip": "Garde les épaules basses, ne hausse pas les épaules vers les oreilles."
+            },
+            {
+              "id": "w2_fri_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s",
+              "restSeconds": 60,
+              "tip": "Respiration régulière pendant tout le maintien."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 3,
+      "startDate": "19 oct. 2026",
+      "endDate": "25 oct. 2026",
+      "phaseNumber": 1,
+      "phaseTitle": "Fondations & Alignement",
+      "phaseDescription": "Apprentissage du gainage, placement du dos et pompes inclinées meuble haut.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w3_mon_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Mains sur le haut du bureau/commode. Poitrine vers le bord du meuble, corps bien gainé."
+            },
+            {
+              "id": "w3_mon_ex2",
+              "name": "Dips sur chaise (genoux pliés)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 60,
+              "tip": "Mains sur le bord de la chaise stable, coudes vers l'arrière à 90°. Pieds bien à plat."
+            },
+            {
+              "id": "w3_mon_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "40s",
+              "restSeconds": 60,
+              "tip": "Coudes sous les épaules. Serre fort les fessiers et le nombril. Ne laisse pas le bas du dos creuser."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w3_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut."
+            },
+            {
+              "id": "w3_wed_ex2",
+              "name": "Rowing serviette / glissé au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Tire la serviette vers le haut du torse en contractant fort les omoplates."
+            },
+            {
+              "id": "w3_wed_ex3",
+              "name": "Extensions mollets sur marche",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 45,
+              "tip": "Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w3_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "14",
+              "restSeconds": 60,
+              "tip": "Mains aux tempes, décolle seulement les omoplates du sol en expirant. Ne tire pas la nuque."
+            },
+            {
+              "id": "w3_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "10/côté",
+              "restSeconds": 60,
+              "tip": "Planche sur les mains, pieds écartés. Touche l'épaule opposée sans pivoter le bassin."
+            },
+            {
+              "id": "w3_thu_ex3",
+              "name": "Gainage latéral sur coude",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20s/côté",
+              "restSeconds": 60,
+              "tip": "Corps aligné tête-bassin-chevilles. Pousse le bassin vers le plafond."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w3_fri_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Mouvement fluide et contrôlé. Inspire en descendant, expire en poussant."
+            },
+            {
+              "id": "w3_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 60,
+              "tip": "Garde les épaules basses, ne hausse pas les épaules vers les oreilles."
+            },
+            {
+              "id": "w3_fri_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "40s",
+              "restSeconds": 60,
+              "tip": "Respiration régulière pendant tout le maintien."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 4,
+      "startDate": "26 oct. 2026",
+      "endDate": "01 nov. 2026",
+      "phaseNumber": 1,
+      "phaseTitle": "Fondations & Alignement",
+      "phaseDescription": "Apprentissage du gainage, placement du dos et pompes inclinées meuble haut.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w4_mon_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "11",
+              "restSeconds": 90,
+              "tip": "Mains sur le haut du bureau/commode. Poitrine vers le bord du meuble, corps bien gainé."
+            },
+            {
+              "id": "w4_mon_ex2",
+              "name": "Dips sur chaise (genoux pliés)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 60,
+              "tip": "Mains sur le bord de la chaise stable, coudes vers l'arrière à 90°. Pieds bien à plat."
+            },
+            {
+              "id": "w4_mon_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "45s",
+              "restSeconds": 60,
+              "tip": "Coudes sous les épaules. Serre fort les fessiers et le nombril. Ne laisse pas le bas du dos creuser."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w4_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut."
+            },
+            {
+              "id": "w4_wed_ex2",
+              "name": "Rowing serviette / glissé au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Tire la serviette vers le haut du torse en contractant fort les omoplates."
+            },
+            {
+              "id": "w4_wed_ex3",
+              "name": "Extensions mollets sur marche",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 45,
+              "tip": "Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w4_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Mains aux tempes, décolle seulement les omoplates du sol en expirant. Ne tire pas la nuque."
+            },
+            {
+              "id": "w4_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "10/côté",
+              "restSeconds": 60,
+              "tip": "Planche sur les mains, pieds écartés. Touche l'épaule opposée sans pivoter le bassin."
+            },
+            {
+              "id": "w4_thu_ex3",
+              "name": "Gainage latéral sur coude",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20s/côté",
+              "restSeconds": 60,
+              "tip": "Corps aligné tête-bassin-chevilles. Pousse le bassin vers le plafond."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w4_fri_ex1",
+              "name": "Pompes inclinées (meuble haut)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "11",
+              "restSeconds": 90,
+              "tip": "Mouvement fluide et contrôlé. Inspire en descendant, expire en poussant."
+            },
+            {
+              "id": "w4_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 60,
+              "tip": "Garde les épaules basses, ne hausse pas les épaules vers les oreilles."
+            },
+            {
+              "id": "w4_fri_ex3",
+              "name": "Gainage planche sur coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "45s",
+              "restSeconds": 60,
+              "tip": "Respiration régulière pendant tout le maintien."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 5,
+      "startDate": "02 nov. 2026",
+      "endDate": "08 nov. 2026",
+      "phaseNumber": 2,
+      "phaseTitle": "Baisse de l'Angle & Charge Triceps",
+      "phaseDescription": "Pompes sur meuble moyen (table/bureau), montée en puissance des Dips.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w5_mon_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "Mains appuyées sur le bord d'une table ou d'un bureau plus bas. Descends la poitrine vers le bord."
+            },
+            {
+              "id": "w5_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Contrôle la descente, pousse fort dans les bras."
+            },
+            {
+              "id": "w5_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "45s",
+              "restSeconds": 60,
+              "tip": "Cale tes pieds contre le mur pour éviter tout glissement du tapis !"
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w5_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Conserve la nuque alignée avec la colonne."
+            },
+            {
+              "id": "w5_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+            },
+            {
+              "id": "w5_wed_ex3",
+              "name": "Extensions mollets à 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 45,
+              "tip": "Équilibre sur une jambe, pointe au maximum."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w5_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Pense à contracter fort le sommet des abdos."
+            },
+            {
+              "id": "w5_thu_ex2",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "6 reps",
+              "restSeconds": 60,
+              "tip": "Passe des coudes aux mains une par une en gardant le bassin immobile."
+            },
+            {
+              "id": "w5_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "25s/côté",
+              "restSeconds": 60,
+              "tip": "Main en appui solide sur le sol."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w5_fri_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Garde les coudes proches du corps à 45°."
+            },
+            {
+              "id": "w5_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation maximale de l'arrière du bras."
+            },
+            {
+              "id": "w5_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "45s",
+              "restSeconds": 60,
+              "tip": "Position irréprochable."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 6,
+      "startDate": "09 nov. 2026",
+      "endDate": "15 nov. 2026",
+      "phaseNumber": 2,
+      "phaseTitle": "Baisse de l'Angle & Charge Triceps",
+      "phaseDescription": "Pompes sur meuble moyen (table/bureau), montée en puissance des Dips.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w6_mon_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 90,
+              "tip": "Mains appuyées sur le bord d'une table ou d'un bureau plus bas. Descends la poitrine vers le bord."
+            },
+            {
+              "id": "w6_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Contrôle la descente, pousse fort dans les bras."
+            },
+            {
+              "id": "w6_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "48s",
+              "restSeconds": 60,
+              "tip": "Cale tes pieds contre le mur pour éviter tout glissement du tapis !"
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w6_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Conserve la nuque alignée avec la colonne."
+            },
+            {
+              "id": "w6_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+            },
+            {
+              "id": "w6_wed_ex3",
+              "name": "Extensions mollets à 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 45,
+              "tip": "Équilibre sur une jambe, pointe au maximum."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w6_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Pense à contracter fort le sommet des abdos."
+            },
+            {
+              "id": "w6_thu_ex2",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "6 reps",
+              "restSeconds": 60,
+              "tip": "Passe des coudes aux mains une par une en gardant le bassin immobile."
+            },
+            {
+              "id": "w6_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "25s/côté",
+              "restSeconds": 60,
+              "tip": "Main en appui solide sur le sol."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w6_fri_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Garde les coudes proches du corps à 45°."
+            },
+            {
+              "id": "w6_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation maximale de l'arrière du bras."
+            },
+            {
+              "id": "w6_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "48s",
+              "restSeconds": 60,
+              "tip": "Position irréprochable."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 7,
+      "startDate": "16 nov. 2026",
+      "endDate": "22 nov. 2026",
+      "phaseNumber": 2,
+      "phaseTitle": "Baisse de l'Angle & Charge Triceps",
+      "phaseDescription": "Pompes sur meuble moyen (table/bureau), montée en puissance des Dips.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w7_mon_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Mains appuyées sur le bord d'une table ou d'un bureau plus bas. Descends la poitrine vers le bord."
+            },
+            {
+              "id": "w7_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "11",
+              "restSeconds": 60,
+              "tip": "Contrôle la descente, pousse fort dans les bras."
+            },
+            {
+              "id": "w7_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "51s",
+              "restSeconds": 60,
+              "tip": "Cale tes pieds contre le mur pour éviter tout glissement du tapis !"
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w7_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Conserve la nuque alignée avec la colonne."
+            },
+            {
+              "id": "w7_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+            },
+            {
+              "id": "w7_wed_ex3",
+              "name": "Extensions mollets à 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 45,
+              "tip": "Équilibre sur une jambe, pointe au maximum."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w7_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Pense à contracter fort le sommet des abdos."
+            },
+            {
+              "id": "w7_thu_ex2",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "6 reps",
+              "restSeconds": 60,
+              "tip": "Passe des coudes aux mains une par une en gardant le bassin immobile."
+            },
+            {
+              "id": "w7_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "25s/côté",
+              "restSeconds": 60,
+              "tip": "Main en appui solide sur le sol."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w7_fri_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Garde les coudes proches du corps à 45°."
+            },
+            {
+              "id": "w7_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation maximale de l'arrière du bras."
+            },
+            {
+              "id": "w7_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "51s",
+              "restSeconds": 60,
+              "tip": "Position irréprochable."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 8,
+      "startDate": "23 nov. 2026",
+      "endDate": "29 nov. 2026",
+      "phaseNumber": 2,
+      "phaseTitle": "Baisse de l'Angle & Charge Triceps",
+      "phaseDescription": "Pompes sur meuble moyen (table/bureau), montée en puissance des Dips.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w8_mon_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "11",
+              "restSeconds": 90,
+              "tip": "Mains appuyées sur le bord d'une table ou d'un bureau plus bas. Descends la poitrine vers le bord."
+            },
+            {
+              "id": "w8_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "11",
+              "restSeconds": 60,
+              "tip": "Contrôle la descente, pousse fort dans les bras."
+            },
+            {
+              "id": "w8_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "54s",
+              "restSeconds": 60,
+              "tip": "Cale tes pieds contre le mur pour éviter tout glissement du tapis !"
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w8_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Conserve la nuque alignée avec la colonne."
+            },
+            {
+              "id": "w8_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+            },
+            {
+              "id": "w8_wed_ex3",
+              "name": "Extensions mollets à 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 45,
+              "tip": "Équilibre sur une jambe, pointe au maximum."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w8_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Pense à contracter fort le sommet des abdos."
+            },
+            {
+              "id": "w8_thu_ex2",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "6 reps",
+              "restSeconds": 60,
+              "tip": "Passe des coudes aux mains une par une en gardant le bassin immobile."
+            },
+            {
+              "id": "w8_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "25s/côté",
+              "restSeconds": 60,
+              "tip": "Main en appui solide sur le sol."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w8_fri_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Garde les coudes proches du corps à 45°."
+            },
+            {
+              "id": "w8_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation maximale de l'arrière du bras."
+            },
+            {
+              "id": "w8_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "54s",
+              "restSeconds": 60,
+              "tip": "Position irréprochable."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 9,
+      "startDate": "30 nov. 2026",
+      "endDate": "06 déc. 2026",
+      "phaseNumber": 2,
+      "phaseTitle": "Baisse de l'Angle & Charge Triceps",
+      "phaseDescription": "Pompes sur meuble moyen (table/bureau), montée en puissance des Dips.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w9_mon_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Mains appuyées sur le bord d'une table ou d'un bureau plus bas. Descends la poitrine vers le bord."
+            },
+            {
+              "id": "w9_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Contrôle la descente, pousse fort dans les bras."
+            },
+            {
+              "id": "w9_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "57s",
+              "restSeconds": 60,
+              "tip": "Cale tes pieds contre le mur pour éviter tout glissement du tapis !"
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w9_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Conserve la nuque alignée avec la colonne."
+            },
+            {
+              "id": "w9_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+            },
+            {
+              "id": "w9_wed_ex3",
+              "name": "Extensions mollets à 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 45,
+              "tip": "Équilibre sur une jambe, pointe au maximum."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w9_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Pense à contracter fort le sommet des abdos."
+            },
+            {
+              "id": "w9_thu_ex2",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "6 reps",
+              "restSeconds": 60,
+              "tip": "Passe des coudes aux mains une par une en gardant le bassin immobile."
+            },
+            {
+              "id": "w9_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "25s/côté",
+              "restSeconds": 60,
+              "tip": "Main en appui solide sur le sol."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w9_fri_ex1",
+              "name": "Pompes inclinées (meuble moyen)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Garde les coudes proches du corps à 45°."
+            },
+            {
+              "id": "w9_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation maximale de l'arrière du bras."
+            },
+            {
+              "id": "w9_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "57s",
+              "restSeconds": 60,
+              "tip": "Position irréprochable."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 10,
+      "startDate": "07 déc. 2026",
+      "endDate": "13 déc. 2026",
+      "phaseNumber": 3,
+      "phaseTitle": "Transition Sol & Phase Négative",
+      "phaseDescription": "Premières pompes genoux au sol et travail négatif freiné.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w10_mon_ex1",
+              "name": "Pompes sur les genoux au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Genoux posés sur tapis, hanches alignées. Descends la poitrine jusqu'à frôler le sol."
+            },
+            {
+              "id": "w10_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Garde les pieds plus éloignés pour augmenter le travail."
+            },
+            {
+              "id": "w10_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Respiration lente et contrôlée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w10_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Maintien de 1s au sommet."
+            },
+            {
+              "id": "w10_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Traction lente et contrôlée."
+            },
+            {
+              "id": "w10_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Montée lente, redescente freinée."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w10_thu_ex1",
+              "name": "Crunchs inversés (relevé de bassin)",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le dos, monte les genoux vers la poitrine en décollant légèrement le bas du dos."
+            },
+            {
+              "id": "w10_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 60,
+              "tip": "Stabilité absolue du tronc."
+            },
+            {
+              "id": "w10_thu_ex3",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "8 reps",
+              "restSeconds": 60,
+              "tip": "Alternance des bras d'appui."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w10_fri_ex1",
+              "name": "Pompes Négatives au sol (4s descente)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Sur les pieds, freine la descente pendant 4 secondes complètes jusqu'au sol, puis remonte sur les genoux."
+            },
+            {
+              "id": "w10_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Concentration sur les triceps."
+            },
+            {
+              "id": "w10_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Maintien solide."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 11,
+      "startDate": "14 déc. 2026",
+      "endDate": "20 déc. 2026",
+      "phaseNumber": 3,
+      "phaseTitle": "Transition Sol & Phase Négative",
+      "phaseDescription": "Premières pompes genoux au sol et travail négatif freiné.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w11_mon_ex1",
+              "name": "Pompes sur les genoux au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Genoux posés sur tapis, hanches alignées. Descends la poitrine jusqu'à frôler le sol."
+            },
+            {
+              "id": "w11_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Garde les pieds plus éloignés pour augmenter le travail."
+            },
+            {
+              "id": "w11_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Respiration lente et contrôlée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w11_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Maintien de 1s au sommet."
+            },
+            {
+              "id": "w11_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Traction lente et contrôlée."
+            },
+            {
+              "id": "w11_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Montée lente, redescente freinée."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w11_thu_ex1",
+              "name": "Crunchs inversés (relevé de bassin)",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le dos, monte les genoux vers la poitrine en décollant légèrement le bas du dos."
+            },
+            {
+              "id": "w11_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 60,
+              "tip": "Stabilité absolue du tronc."
+            },
+            {
+              "id": "w11_thu_ex3",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "8 reps",
+              "restSeconds": 60,
+              "tip": "Alternance des bras d'appui."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w11_fri_ex1",
+              "name": "Pompes Négatives au sol (4s descente)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Sur les pieds, freine la descente pendant 4 secondes complètes jusqu'au sol, puis remonte sur les genoux."
+            },
+            {
+              "id": "w11_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Concentration sur les triceps."
+            },
+            {
+              "id": "w11_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Maintien solide."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 12,
+      "startDate": "21 déc. 2026",
+      "endDate": "27 déc. 2026",
+      "phaseNumber": 3,
+      "phaseTitle": "Transition Sol & Phase Négative",
+      "phaseDescription": "Premières pompes genoux au sol et travail négatif freiné.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w12_mon_ex1",
+              "name": "Pompes sur les genoux au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "7",
+              "restSeconds": 90,
+              "tip": "Genoux posés sur tapis, hanches alignées. Descends la poitrine jusqu'à frôler le sol."
+            },
+            {
+              "id": "w12_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Garde les pieds plus éloignés pour augmenter le travail."
+            },
+            {
+              "id": "w12_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Respiration lente et contrôlée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w12_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Maintien de 1s au sommet."
+            },
+            {
+              "id": "w12_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Traction lente et contrôlée."
+            },
+            {
+              "id": "w12_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Montée lente, redescente freinée."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w12_thu_ex1",
+              "name": "Crunchs inversés (relevé de bassin)",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le dos, monte les genoux vers la poitrine en décollant légèrement le bas du dos."
+            },
+            {
+              "id": "w12_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 60,
+              "tip": "Stabilité absolue du tronc."
+            },
+            {
+              "id": "w12_thu_ex3",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "8 reps",
+              "restSeconds": 60,
+              "tip": "Alternance des bras d'appui."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w12_fri_ex1",
+              "name": "Pompes Négatives au sol (4s descente)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Sur les pieds, freine la descente pendant 4 secondes complètes jusqu'au sol, puis remonte sur les genoux."
+            },
+            {
+              "id": "w12_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Concentration sur les triceps."
+            },
+            {
+              "id": "w12_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Maintien solide."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 13,
+      "startDate": "28 déc. 2026",
+      "endDate": "03 janv. 2027",
+      "phaseNumber": 3,
+      "phaseTitle": "Transition Sol & Phase Négative",
+      "phaseDescription": "Premières pompes genoux au sol et travail négatif freiné.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w13_mon_ex1",
+              "name": "Pompes sur les genoux au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "7",
+              "restSeconds": 90,
+              "tip": "Genoux posés sur tapis, hanches alignées. Descends la poitrine jusqu'à frôler le sol."
+            },
+            {
+              "id": "w13_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Garde les pieds plus éloignés pour augmenter le travail."
+            },
+            {
+              "id": "w13_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Respiration lente et contrôlée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w13_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Maintien de 1s au sommet."
+            },
+            {
+              "id": "w13_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Traction lente et contrôlée."
+            },
+            {
+              "id": "w13_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Montée lente, redescente freinée."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w13_thu_ex1",
+              "name": "Crunchs inversés (relevé de bassin)",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le dos, monte les genoux vers la poitrine en décollant légèrement le bas du dos."
+            },
+            {
+              "id": "w13_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 60,
+              "tip": "Stabilité absolue du tronc."
+            },
+            {
+              "id": "w13_thu_ex3",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "8 reps",
+              "restSeconds": 60,
+              "tip": "Alternance des bras d'appui."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w13_fri_ex1",
+              "name": "Pompes Négatives au sol (4s descente)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Sur les pieds, freine la descente pendant 4 secondes complètes jusqu'au sol, puis remonte sur les genoux."
+            },
+            {
+              "id": "w13_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Concentration sur les triceps."
+            },
+            {
+              "id": "w13_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Maintien solide."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 14,
+      "startDate": "04 janv. 2027",
+      "endDate": "10 janv. 2027",
+      "phaseNumber": 3,
+      "phaseTitle": "Transition Sol & Phase Négative",
+      "phaseDescription": "Premières pompes genoux au sol et travail négatif freiné.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w14_mon_ex1",
+              "name": "Pompes sur les genoux au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "Genoux posés sur tapis, hanches alignées. Descends la poitrine jusqu'à frôler le sol."
+            },
+            {
+              "id": "w14_mon_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Garde les pieds plus éloignés pour augmenter le travail."
+            },
+            {
+              "id": "w14_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Respiration lente et contrôlée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w14_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Maintien de 1s au sommet."
+            },
+            {
+              "id": "w14_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Traction lente et contrôlée."
+            },
+            {
+              "id": "w14_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Montée lente, redescente freinée."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w14_thu_ex1",
+              "name": "Crunchs inversés (relevé de bassin)",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Allongé sur le dos, monte les genoux vers la poitrine en décollant légèrement le bas du dos."
+            },
+            {
+              "id": "w14_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12/côté",
+              "restSeconds": 60,
+              "tip": "Stabilité absolue du tronc."
+            },
+            {
+              "id": "w14_thu_ex3",
+              "name": "Gainage commando",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "8 reps",
+              "restSeconds": 60,
+              "tip": "Alternance des bras d'appui."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w14_fri_ex1",
+              "name": "Pompes Négatives au sol (4s descente)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Sur les pieds, freine la descente pendant 4 secondes complètes jusqu'au sol, puis remonte sur les genoux."
+            },
+            {
+              "id": "w14_fri_ex2",
+              "name": "Dips sur chaise",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Concentration sur les triceps."
+            },
+            {
+              "id": "w14_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m",
+              "restSeconds": 60,
+              "tip": "Maintien solide."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 15,
+      "startDate": "11 janv. 2027",
+      "endDate": "17 janv. 2027",
+      "phaseNumber": 4,
+      "phaseTitle": "Premières Pompes Stricte au Sol",
+      "phaseDescription": "Passage aux pompes classiques pures au sol et Dips jambes tendues.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w15_mon_ex1",
+              "name": "Pompes Classiques au sol !",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "3",
+              "restSeconds": 90,
+              "tip": "Corps rigide comme une planche sur les pieds. Descends la poitrine au sol sans toucher le ventre."
+            },
+            {
+              "id": "w15_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Talons au sol, jambes tendues pour augmenter la résistance."
+            },
+            {
+              "id": "w15_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Ne laisse pas s'affaisser les épaules."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w15_wed_ex1",
+              "name": "Superman avec maintien",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bloque 2s en haut."
+            },
+            {
+              "id": "w15_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Tension constante."
+            },
+            {
+              "id": "w15_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Ampleur maximale."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w15_thu_ex1",
+              "name": "Crunchs inversés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Mouvement fluide sans élan."
+            },
+            {
+              "id": "w15_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Rhythm contrôlé."
+            },
+            {
+              "id": "w15_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s/côté",
+              "restSeconds": 60,
+              "tip": "Conserve le corps aligné."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w15_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Qualité d'exécution irréprochable."
+            },
+            {
+              "id": "w15_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Triceps en feu à la fin de la série."
+            },
+            {
+              "id": "w15_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Engage fort la sangle."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 16,
+      "startDate": "18 janv. 2027",
+      "endDate": "24 janv. 2027",
+      "phaseNumber": 4,
+      "phaseTitle": "Premières Pompes Stricte au Sol",
+      "phaseDescription": "Passage aux pompes classiques pures au sol et Dips jambes tendues.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w16_mon_ex1",
+              "name": "Pompes Classiques au sol !",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "Corps rigide comme une planche sur les pieds. Descends la poitrine au sol sans toucher le ventre."
+            },
+            {
+              "id": "w16_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Talons au sol, jambes tendues pour augmenter la résistance."
+            },
+            {
+              "id": "w16_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Ne laisse pas s'affaisser les épaules."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w16_wed_ex1",
+              "name": "Superman avec maintien",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bloque 2s en haut."
+            },
+            {
+              "id": "w16_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Tension constante."
+            },
+            {
+              "id": "w16_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Ampleur maximale."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w16_thu_ex1",
+              "name": "Crunchs inversés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Mouvement fluide sans élan."
+            },
+            {
+              "id": "w16_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Rhythm contrôlé."
+            },
+            {
+              "id": "w16_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s/côté",
+              "restSeconds": 60,
+              "tip": "Conserve le corps aligné."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w16_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "Qualité d'exécution irréprochable."
+            },
+            {
+              "id": "w16_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Triceps en feu à la fin de la série."
+            },
+            {
+              "id": "w16_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Engage fort la sangle."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 17,
+      "startDate": "25 janv. 2027",
+      "endDate": "31 janv. 2027",
+      "phaseNumber": 4,
+      "phaseTitle": "Premières Pompes Stricte au Sol",
+      "phaseDescription": "Passage aux pompes classiques pures au sol et Dips jambes tendues.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w17_mon_ex1",
+              "name": "Pompes Classiques au sol !",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "Corps rigide comme une planche sur les pieds. Descends la poitrine au sol sans toucher le ventre."
+            },
+            {
+              "id": "w17_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Talons au sol, jambes tendues pour augmenter la résistance."
+            },
+            {
+              "id": "w17_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Ne laisse pas s'affaisser les épaules."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w17_wed_ex1",
+              "name": "Superman avec maintien",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bloque 2s en haut."
+            },
+            {
+              "id": "w17_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Tension constante."
+            },
+            {
+              "id": "w17_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Ampleur maximale."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w17_thu_ex1",
+              "name": "Crunchs inversés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Mouvement fluide sans élan."
+            },
+            {
+              "id": "w17_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Rhythm contrôlé."
+            },
+            {
+              "id": "w17_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s/côté",
+              "restSeconds": 60,
+              "tip": "Conserve le corps aligné."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w17_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Qualité d'exécution irréprochable."
+            },
+            {
+              "id": "w17_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Triceps en feu à la fin de la série."
+            },
+            {
+              "id": "w17_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Engage fort la sangle."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 18,
+      "startDate": "01 févr. 2027",
+      "endDate": "07 févr. 2027",
+      "phaseNumber": 4,
+      "phaseTitle": "Premières Pompes Stricte au Sol",
+      "phaseDescription": "Passage aux pompes classiques pures au sol et Dips jambes tendues.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w18_mon_ex1",
+              "name": "Pompes Classiques au sol !",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Corps rigide comme une planche sur les pieds. Descends la poitrine au sol sans toucher le ventre."
+            },
+            {
+              "id": "w18_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Talons au sol, jambes tendues pour augmenter la résistance."
+            },
+            {
+              "id": "w18_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Ne laisse pas s'affaisser les épaules."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w18_wed_ex1",
+              "name": "Superman avec maintien",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bloque 2s en haut."
+            },
+            {
+              "id": "w18_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Tension constante."
+            },
+            {
+              "id": "w18_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Ampleur maximale."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w18_thu_ex1",
+              "name": "Crunchs inversés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Mouvement fluide sans élan."
+            },
+            {
+              "id": "w18_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Rhythm contrôlé."
+            },
+            {
+              "id": "w18_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s/côté",
+              "restSeconds": 60,
+              "tip": "Conserve le corps aligné."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w18_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Qualité d'exécution irréprochable."
+            },
+            {
+              "id": "w18_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Triceps en feu à la fin de la série."
+            },
+            {
+              "id": "w18_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Engage fort la sangle."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 19,
+      "startDate": "08 févr. 2027",
+      "endDate": "14 févr. 2027",
+      "phaseNumber": 4,
+      "phaseTitle": "Premières Pompes Stricte au Sol",
+      "phaseDescription": "Passage aux pompes classiques pures au sol et Dips jambes tendues.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w19_mon_ex1",
+              "name": "Pompes Classiques au sol !",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Corps rigide comme une planche sur les pieds. Descends la poitrine au sol sans toucher le ventre."
+            },
+            {
+              "id": "w19_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Talons au sol, jambes tendues pour augmenter la résistance."
+            },
+            {
+              "id": "w19_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Ne laisse pas s'affaisser les épaules."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w19_wed_ex1",
+              "name": "Superman avec maintien",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bloque 2s en haut."
+            },
+            {
+              "id": "w19_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Tension constante."
+            },
+            {
+              "id": "w19_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 45,
+              "tip": "Ampleur maximale."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w19_thu_ex1",
+              "name": "Crunchs inversés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Mouvement fluide sans élan."
+            },
+            {
+              "id": "w19_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Rhythm contrôlé."
+            },
+            {
+              "id": "w19_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "30s/côté",
+              "restSeconds": 60,
+              "tip": "Conserve le corps aligné."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w19_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Qualité d'exécution irréprochable."
+            },
+            {
+              "id": "w19_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Triceps en feu à la fin de la série."
+            },
+            {
+              "id": "w19_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Engage fort la sangle."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 20,
+      "startDate": "15 févr. 2027",
+      "endDate": "21 févr. 2027",
+      "phaseNumber": 5,
+      "phaseTitle": "Consolidation Sol & Volume Pectoraux",
+      "phaseDescription": "Montée en répétitions sur pompes classiques au sol et abdominaux.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w20_mon_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "Descente complète, coudes rentrés à 45°."
+            },
+            {
+              "id": "w20_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Fais travailler l'arrière du bras."
+            },
+            {
+              "id": "w20_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Stabilité irréprochable."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w20_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos solide et renforcé."
+            },
+            {
+              "id": "w20_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction dorsale."
+            },
+            {
+              "id": "w20_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "18/côté",
+              "restSeconds": 45,
+              "tip": "Bonne brûlure du mollet."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w20_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20",
+              "restSeconds": 60,
+              "tip": "Décolle bien les omoplates."
+            },
+            {
+              "id": "w20_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Pieds légèrement écartés."
+            },
+            {
+              "id": "w20_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s/côté",
+              "restSeconds": 60,
+              "tip": "Obliques sous tension."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w20_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "7",
+              "restSeconds": 90,
+              "tip": "Force et régularité."
+            },
+            {
+              "id": "w20_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation triceps."
+            },
+            {
+              "id": "w20_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Gainage d'acier."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 21,
+      "startDate": "22 févr. 2027",
+      "endDate": "28 févr. 2027",
+      "phaseNumber": 5,
+      "phaseTitle": "Consolidation Sol & Volume Pectoraux",
+      "phaseDescription": "Montée en répétitions sur pompes classiques au sol et abdominaux.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w21_mon_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "7",
+              "restSeconds": 90,
+              "tip": "Descente complète, coudes rentrés à 45°."
+            },
+            {
+              "id": "w21_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Fais travailler l'arrière du bras."
+            },
+            {
+              "id": "w21_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Stabilité irréprochable."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w21_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos solide et renforcé."
+            },
+            {
+              "id": "w21_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction dorsale."
+            },
+            {
+              "id": "w21_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "18/côté",
+              "restSeconds": 45,
+              "tip": "Bonne brûlure du mollet."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w21_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20",
+              "restSeconds": 60,
+              "tip": "Décolle bien les omoplates."
+            },
+            {
+              "id": "w21_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Pieds légèrement écartés."
+            },
+            {
+              "id": "w21_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s/côté",
+              "restSeconds": 60,
+              "tip": "Obliques sous tension."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w21_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "Force et régularité."
+            },
+            {
+              "id": "w21_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation triceps."
+            },
+            {
+              "id": "w21_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Gainage d'acier."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 22,
+      "startDate": "01 mars 2027",
+      "endDate": "07 mars 2027",
+      "phaseNumber": 5,
+      "phaseTitle": "Consolidation Sol & Volume Pectoraux",
+      "phaseDescription": "Montée en répétitions sur pompes classiques au sol et abdominaux.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w22_mon_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "Descente complète, coudes rentrés à 45°."
+            },
+            {
+              "id": "w22_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Fais travailler l'arrière du bras."
+            },
+            {
+              "id": "w22_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Stabilité irréprochable."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w22_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos solide et renforcé."
+            },
+            {
+              "id": "w22_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction dorsale."
+            },
+            {
+              "id": "w22_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "18/côté",
+              "restSeconds": 45,
+              "tip": "Bonne brûlure du mollet."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w22_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20",
+              "restSeconds": 60,
+              "tip": "Décolle bien les omoplates."
+            },
+            {
+              "id": "w22_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Pieds légèrement écartés."
+            },
+            {
+              "id": "w22_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s/côté",
+              "restSeconds": 60,
+              "tip": "Obliques sous tension."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w22_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 90,
+              "tip": "Force et régularité."
+            },
+            {
+              "id": "w22_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation triceps."
+            },
+            {
+              "id": "w22_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Gainage d'acier."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 23,
+      "startDate": "08 mars 2027",
+      "endDate": "14 mars 2027",
+      "phaseNumber": 5,
+      "phaseTitle": "Consolidation Sol & Volume Pectoraux",
+      "phaseDescription": "Montée en répétitions sur pompes classiques au sol et abdominaux.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w23_mon_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "9",
+              "restSeconds": 90,
+              "tip": "Descente complète, coudes rentrés à 45°."
+            },
+            {
+              "id": "w23_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Fais travailler l'arrière du bras."
+            },
+            {
+              "id": "w23_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Stabilité irréprochable."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w23_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos solide et renforcé."
+            },
+            {
+              "id": "w23_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction dorsale."
+            },
+            {
+              "id": "w23_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "18/côté",
+              "restSeconds": 45,
+              "tip": "Bonne brûlure du mollet."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w23_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20",
+              "restSeconds": 60,
+              "tip": "Décolle bien les omoplates."
+            },
+            {
+              "id": "w23_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Pieds légèrement écartés."
+            },
+            {
+              "id": "w23_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s/côté",
+              "restSeconds": 60,
+              "tip": "Obliques sous tension."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w23_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Force et régularité."
+            },
+            {
+              "id": "w23_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation triceps."
+            },
+            {
+              "id": "w23_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Gainage d'acier."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 24,
+      "startDate": "15 mars 2027",
+      "endDate": "21 mars 2027",
+      "phaseNumber": 5,
+      "phaseTitle": "Consolidation Sol & Volume Pectoraux",
+      "phaseDescription": "Montée en répétitions sur pompes classiques au sol et abdominaux.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w24_mon_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Descente complète, coudes rentrés à 45°."
+            },
+            {
+              "id": "w24_mon_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Fais travailler l'arrière du bras."
+            },
+            {
+              "id": "w24_mon_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Stabilité irréprochable."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w24_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos solide et renforcé."
+            },
+            {
+              "id": "w24_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction dorsale."
+            },
+            {
+              "id": "w24_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "18/côté",
+              "restSeconds": 45,
+              "tip": "Bonne brûlure du mollet."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w24_thu_ex1",
+              "name": "Crunchs contrôlés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20",
+              "restSeconds": 60,
+              "tip": "Décolle bien les omoplates."
+            },
+            {
+              "id": "w24_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Pieds légèrement écartés."
+            },
+            {
+              "id": "w24_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "35s/côté",
+              "restSeconds": 60,
+              "tip": "Obliques sous tension."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w24_fri_ex1",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Force et régularité."
+            },
+            {
+              "id": "w24_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Isolation triceps."
+            },
+            {
+              "id": "w24_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m15",
+              "restSeconds": 60,
+              "tip": "Gainage d'acier."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 25,
+      "startDate": "22 mars 2027",
+      "endDate": "28 mars 2027",
+      "phaseNumber": 6,
+      "phaseTitle": "Introduction de la Pompe Diamant",
+      "phaseDescription": "Premières séries de Pompes Diamant (mains serrées en triangle) pour cibler les triceps.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w25_mon_ex1",
+              "name": "Pompes Classiques (Série 1 & 2)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Échauffement parfait de la poussée."
+            },
+            {
+              "id": "w25_mon_ex2",
+              "name": "POMPES DIAMANT (Série 3)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "3",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE sous la poitrine (index et pouces collés). Focus TRICEPS extrême !"
+            },
+            {
+              "id": "w25_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Maintien de la brûlure."
+            },
+            {
+              "id": "w25_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Sangle bien verrouillée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w25_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Posturale & gainage dorsal."
+            },
+            {
+              "id": "w25_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Focus grand dorsal."
+            },
+            {
+              "id": "w25_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Finition pointe des pieds."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w25_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Monte simultanément les épaules et les genoux."
+            },
+            {
+              "id": "w25_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Contrôle parfait."
+            },
+            {
+              "id": "w25_thu_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Abdos en acier."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w25_fri_ex1",
+              "name": "POMPES DIAMANT (Série 1)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "3",
+              "restSeconds": 90,
+              "tip": "🔹 Mains en triangle sous le sternum."
+            },
+            {
+              "id": "w25_fri_ex2",
+              "name": "Pompes Classiques (Série 2 & 3)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Poussée constante."
+            },
+            {
+              "id": "w25_fri_ex3",
+              "name": "Finisseur Volume (Dips + Inclinées)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Enchaîne dips puis pompes inclinées."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 26,
+      "startDate": "29 mars 2027",
+      "endDate": "04 avr. 2027",
+      "phaseNumber": 6,
+      "phaseTitle": "Introduction de la Pompe Diamant",
+      "phaseDescription": "Premières séries de Pompes Diamant (mains serrées en triangle) pour cibler les triceps.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w26_mon_ex1",
+              "name": "Pompes Classiques (Série 1 & 2)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Échauffement parfait de la poussée."
+            },
+            {
+              "id": "w26_mon_ex2",
+              "name": "POMPES DIAMANT (Série 3)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE sous la poitrine (index et pouces collés). Focus TRICEPS extrême !"
+            },
+            {
+              "id": "w26_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Maintien de la brûlure."
+            },
+            {
+              "id": "w26_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Sangle bien verrouillée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w26_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Posturale & gainage dorsal."
+            },
+            {
+              "id": "w26_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Focus grand dorsal."
+            },
+            {
+              "id": "w26_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Finition pointe des pieds."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w26_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Monte simultanément les épaules et les genoux."
+            },
+            {
+              "id": "w26_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Contrôle parfait."
+            },
+            {
+              "id": "w26_thu_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Abdos en acier."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w26_fri_ex1",
+              "name": "POMPES DIAMANT (Série 1)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "🔹 Mains en triangle sous le sternum."
+            },
+            {
+              "id": "w26_fri_ex2",
+              "name": "Pompes Classiques (Série 2 & 3)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Poussée constante."
+            },
+            {
+              "id": "w26_fri_ex3",
+              "name": "Finisseur Volume (Dips + Inclinées)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Enchaîne dips puis pompes inclinées."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 27,
+      "startDate": "05 avr. 2027",
+      "endDate": "11 avr. 2027",
+      "phaseNumber": 6,
+      "phaseTitle": "Introduction de la Pompe Diamant",
+      "phaseDescription": "Premières séries de Pompes Diamant (mains serrées en triangle) pour cibler les triceps.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w27_mon_ex1",
+              "name": "Pompes Classiques (Série 1 & 2)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Échauffement parfait de la poussée."
+            },
+            {
+              "id": "w27_mon_ex2",
+              "name": "POMPES DIAMANT (Série 3)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE sous la poitrine (index et pouces collés). Focus TRICEPS extrême !"
+            },
+            {
+              "id": "w27_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Maintien de la brûlure."
+            },
+            {
+              "id": "w27_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Sangle bien verrouillée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w27_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Posturale & gainage dorsal."
+            },
+            {
+              "id": "w27_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Focus grand dorsal."
+            },
+            {
+              "id": "w27_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Finition pointe des pieds."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w27_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Monte simultanément les épaules et les genoux."
+            },
+            {
+              "id": "w27_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Contrôle parfait."
+            },
+            {
+              "id": "w27_thu_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Abdos en acier."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w27_fri_ex1",
+              "name": "POMPES DIAMANT (Série 1)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 Mains en triangle sous le sternum."
+            },
+            {
+              "id": "w27_fri_ex2",
+              "name": "Pompes Classiques (Série 2 & 3)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Poussée constante."
+            },
+            {
+              "id": "w27_fri_ex3",
+              "name": "Finisseur Volume (Dips + Inclinées)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Enchaîne dips puis pompes inclinées."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 28,
+      "startDate": "12 avr. 2027",
+      "endDate": "18 avr. 2027",
+      "phaseNumber": 6,
+      "phaseTitle": "Introduction de la Pompe Diamant",
+      "phaseDescription": "Premières séries de Pompes Diamant (mains serrées en triangle) pour cibler les triceps.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w28_mon_ex1",
+              "name": "Pompes Classiques (Série 1 & 2)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Échauffement parfait de la poussée."
+            },
+            {
+              "id": "w28_mon_ex2",
+              "name": "POMPES DIAMANT (Série 3)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE sous la poitrine (index et pouces collés). Focus TRICEPS extrême !"
+            },
+            {
+              "id": "w28_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Maintien de la brûlure."
+            },
+            {
+              "id": "w28_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Sangle bien verrouillée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w28_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Posturale & gainage dorsal."
+            },
+            {
+              "id": "w28_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Focus grand dorsal."
+            },
+            {
+              "id": "w28_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Finition pointe des pieds."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w28_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "12",
+              "restSeconds": 60,
+              "tip": "Monte simultanément les épaules et les genoux."
+            },
+            {
+              "id": "w28_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Contrôle parfait."
+            },
+            {
+              "id": "w28_thu_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m20",
+              "restSeconds": 60,
+              "tip": "Abdos en acier."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w28_fri_ex1",
+              "name": "POMPES DIAMANT (Série 1)",
+              "target": "Triceps",
+              "sets": 1,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 Mains en triangle sous le sternum."
+            },
+            {
+              "id": "w28_fri_ex2",
+              "name": "Pompes Classiques (Série 2 & 3)",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "10",
+              "restSeconds": 90,
+              "tip": "Poussée constante."
+            },
+            {
+              "id": "w28_fri_ex3",
+              "name": "Finisseur Volume (Dips + Inclinées)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "10",
+              "restSeconds": 60,
+              "tip": "Enchaîne dips puis pompes inclinées."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 29,
+      "startDate": "19 avr. 2027",
+      "endDate": "25 avr. 2027",
+      "phaseNumber": 7,
+      "phaseTitle": "Surcharges & Relief Abdominal",
+      "phaseDescription": "Doublement des séries de Pompes Diamant et gainage renforcé.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w29_mon_ex1",
+              "name": "POMPES DIAMANT (2 Séries)",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "4",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE. Pousse fort avec l'arrière des bras !"
+            },
+            {
+              "id": "w29_mon_ex2",
+              "name": "Pompes Classiques (1 Série)",
+              "target": "Pectoraux",
+              "sets": 1,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Finition pectoraux."
+            },
+            {
+              "id": "w29_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Volume triceps maximal."
+            },
+            {
+              "id": "w29_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Sangle abdominale dessinée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w29_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Excellente posture."
+            },
+            {
+              "id": "w29_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos sculpté."
+            },
+            {
+              "id": "w29_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Mollets galbés."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w29_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction profonde du grand droit."
+            },
+            {
+              "id": "w29_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Gainage anti-rotation."
+            },
+            {
+              "id": "w29_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "40s/côté",
+              "restSeconds": 60,
+              "tip": "Dessin des obliques."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w29_fri_ex1",
+              "name": "POMPES DIAMANT",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 3 Séries complètes de pompes diamant !"
+            },
+            {
+              "id": "w29_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bras massifs et découpés."
+            },
+            {
+              "id": "w29_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Maintien ultime."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 30,
+      "startDate": "26 avr. 2027",
+      "endDate": "02 mai 2027",
+      "phaseNumber": 7,
+      "phaseTitle": "Surcharges & Relief Abdominal",
+      "phaseDescription": "Doublement des séries de Pompes Diamant et gainage renforcé.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w30_mon_ex1",
+              "name": "POMPES DIAMANT (2 Séries)",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE. Pousse fort avec l'arrière des bras !"
+            },
+            {
+              "id": "w30_mon_ex2",
+              "name": "Pompes Classiques (1 Série)",
+              "target": "Pectoraux",
+              "sets": 1,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Finition pectoraux."
+            },
+            {
+              "id": "w30_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Volume triceps maximal."
+            },
+            {
+              "id": "w30_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Sangle abdominale dessinée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w30_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Excellente posture."
+            },
+            {
+              "id": "w30_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos sculpté."
+            },
+            {
+              "id": "w30_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Mollets galbés."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w30_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction profonde du grand droit."
+            },
+            {
+              "id": "w30_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Gainage anti-rotation."
+            },
+            {
+              "id": "w30_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "40s/côté",
+              "restSeconds": 60,
+              "tip": "Dessin des obliques."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w30_fri_ex1",
+              "name": "POMPES DIAMANT",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 3 Séries complètes de pompes diamant !"
+            },
+            {
+              "id": "w30_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bras massifs et découpés."
+            },
+            {
+              "id": "w30_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Maintien ultime."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 31,
+      "startDate": "03 mai 2027",
+      "endDate": "09 mai 2027",
+      "phaseNumber": 7,
+      "phaseTitle": "Surcharges & Relief Abdominal",
+      "phaseDescription": "Doublement des séries de Pompes Diamant et gainage renforcé.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w31_mon_ex1",
+              "name": "POMPES DIAMANT (2 Séries)",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE. Pousse fort avec l'arrière des bras !"
+            },
+            {
+              "id": "w31_mon_ex2",
+              "name": "Pompes Classiques (1 Série)",
+              "target": "Pectoraux",
+              "sets": 1,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Finition pectoraux."
+            },
+            {
+              "id": "w31_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Volume triceps maximal."
+            },
+            {
+              "id": "w31_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Sangle abdominale dessinée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w31_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Excellente posture."
+            },
+            {
+              "id": "w31_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos sculpté."
+            },
+            {
+              "id": "w31_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Mollets galbés."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w31_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction profonde du grand droit."
+            },
+            {
+              "id": "w31_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Gainage anti-rotation."
+            },
+            {
+              "id": "w31_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "40s/côté",
+              "restSeconds": 60,
+              "tip": "Dessin des obliques."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w31_fri_ex1",
+              "name": "POMPES DIAMANT",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 3 Séries complètes de pompes diamant !"
+            },
+            {
+              "id": "w31_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bras massifs et découpés."
+            },
+            {
+              "id": "w31_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Maintien ultime."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 32,
+      "startDate": "10 mai 2027",
+      "endDate": "16 mai 2027",
+      "phaseNumber": 7,
+      "phaseTitle": "Surcharges & Relief Abdominal",
+      "phaseDescription": "Doublement des séries de Pompes Diamant et gainage renforcé.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w32_mon_ex1",
+              "name": "POMPES DIAMANT (2 Séries)",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "6",
+              "restSeconds": 90,
+              "tip": "🔹 MAINS EN TRIANGLE. Pousse fort avec l'arrière des bras !"
+            },
+            {
+              "id": "w32_mon_ex2",
+              "name": "Pompes Classiques (1 Série)",
+              "target": "Pectoraux",
+              "sets": 1,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Finition pectoraux."
+            },
+            {
+              "id": "w32_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Volume triceps maximal."
+            },
+            {
+              "id": "w32_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Sangle abdominale dessinée."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w32_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Excellente posture."
+            },
+            {
+              "id": "w32_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos sculpté."
+            },
+            {
+              "id": "w32_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Mollets galbés."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w32_thu_ex1",
+              "name": "Crunchs V-Ups modifiés",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Contraction profonde du grand droit."
+            },
+            {
+              "id": "w32_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15/côté",
+              "restSeconds": 60,
+              "tip": "Gainage anti-rotation."
+            },
+            {
+              "id": "w32_thu_ex3",
+              "name": "Gainage latéral",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "40s/côté",
+              "restSeconds": 60,
+              "tip": "Dessin des obliques."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w32_fri_ex1",
+              "name": "POMPES DIAMANT",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "5",
+              "restSeconds": 90,
+              "tip": "🔹 3 Séries complètes de pompes diamant !"
+            },
+            {
+              "id": "w32_fri_ex2",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bras massifs et découpés."
+            },
+            {
+              "id": "w32_fri_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Maintien ultime."
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 33,
+      "startDate": "17 mai 2027",
+      "endDate": "23 mai 2027",
+      "phaseNumber": 8,
+      "phaseTitle": "Peak Performance & Bilan Final",
+      "phaseDescription": "Maîtrise complète des Pompes Diamant (3x8 reps) et corps sculpté.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w33_mon_ex1",
+              "name": "Pompes Classiques (Chauffe)",
+              "target": "Pectoraux",
+              "sets": 1,
+              "reps": "15",
+              "restSeconds": 90,
+              "tip": "Chauffe dynamique fluide."
+            },
+            {
+              "id": "w33_mon_ex2",
+              "name": "POMPES DIAMANT (OBJECTIF ATTEINT!)",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "🏆 MAINS EN TRIANGLE. Mouvement d'expert maîtrisé à la perfection !"
+            },
+            {
+              "id": "w33_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Triceps puissants."
+            },
+            {
+              "id": "w33_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Plaque abdominale en béton."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w33_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos athlétique."
+            },
+            {
+              "id": "w33_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "V-Taper parfait."
+            },
+            {
+              "id": "w33_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Finition musculaire."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w33_thu_ex1",
+              "name": "Crunchs V-Ups",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Abdos 6-pack visibles."
+            },
+            {
+              "id": "w33_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 60,
+              "tip": "Tronc indestructible."
+            },
+            {
+              "id": "w33_thu_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Tenue d'élite."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w33_fri_ex1",
+              "name": "POMPES DIAMANT",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "🔹 Maîtrise totale."
+            },
+            {
+              "id": "w33_fri_ex2",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Superbe volume poitrine."
+            },
+            {
+              "id": "w33_fri_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bras athlétiques."
+            },
+            {
+              "id": "w33_fri_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Victoire ! Fin de saison au sommet !"
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    },
+    {
+      "weekNumber": 34,
+      "startDate": "24 mai 2027",
+      "endDate": "30 mai 2027",
+      "phaseNumber": 8,
+      "phaseTitle": "Peak Performance & Bilan Final",
+      "phaseDescription": "Maîtrise complète des Pompes Diamant (3x8 reps) et corps sculpté.",
+      "days": {
+        "lundi": {
+          "dayId": "lundi",
+          "dayName": "Lundi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "exercises": [
+            {
+              "id": "w34_mon_ex1",
+              "name": "Pompes Classiques (Chauffe)",
+              "target": "Pectoraux",
+              "sets": 1,
+              "reps": "15",
+              "restSeconds": 90,
+              "tip": "Chauffe dynamique fluide."
+            },
+            {
+              "id": "w34_mon_ex2",
+              "name": "POMPES DIAMANT (OBJECTIF ATTEINT!)",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "🏆 MAINS EN TRIANGLE. Mouvement d'expert maîtrisé à la perfection !"
+            },
+            {
+              "id": "w34_mon_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Triceps puissants."
+            },
+            {
+              "id": "w34_mon_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Plaque abdominale en béton."
+            }
+          ]
+        },
+        "mardi": {
+          "dayId": "mardi",
+          "dayName": "Mardi",
+          "isRest": true,
+          "restReason": "badminton",
+          "subtitle": "18h-20h — Option Badminton (Lycée)",
+          "exercises": []
+        },
+        "mercredi": {
+          "dayId": "mercredi",
+          "dayName": "Mercredi",
+          "isRest": false,
+          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "exercises": [
+            {
+              "id": "w34_wed_ex1",
+              "name": "Superman au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Dos athlétique."
+            },
+            {
+              "id": "w34_wed_ex2",
+              "name": "Rowing serviette au sol",
+              "target": "Dos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "V-Taper parfait."
+            },
+            {
+              "id": "w34_wed_ex3",
+              "name": "Extensions mollets 1 jambe",
+              "target": "Mollets",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 45,
+              "tip": "Finition musculaire."
+            }
+          ]
+        },
+        "jeudi": {
+          "dayId": "jeudi",
+          "dayName": "Jeudi",
+          "isRest": false,
+          "subtitle": "17h00 — Focus Sangle Abdominale & Core (Après EPS)",
+          "exercises": [
+            {
+              "id": "w34_thu_ex1",
+              "name": "Crunchs V-Ups",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Abdos 6-pack visibles."
+            },
+            {
+              "id": "w34_thu_ex2",
+              "name": "Touches d'épaule en planche",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "20/côté",
+              "restSeconds": 60,
+              "tip": "Tronc indestructible."
+            },
+            {
+              "id": "w34_thu_ex3",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Tenue d'élite."
+            }
+          ]
+        },
+        "vendredi": {
+          "dayId": "vendredi",
+          "dayName": "Vendredi",
+          "isRest": false,
+          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "exercises": [
+            {
+              "id": "w34_fri_ex1",
+              "name": "POMPES DIAMANT",
+              "target": "Triceps",
+              "sets": 2,
+              "reps": "8",
+              "restSeconds": 90,
+              "tip": "🔹 Maîtrise totale."
+            },
+            {
+              "id": "w34_fri_ex2",
+              "name": "Pompes Classiques au sol",
+              "target": "Pectoraux",
+              "sets": 2,
+              "reps": "12",
+              "restSeconds": 90,
+              "tip": "Superbe volume poitrine."
+            },
+            {
+              "id": "w34_fri_ex3",
+              "name": "Dips chaise (jambes tendues)",
+              "target": "Triceps",
+              "sets": 3,
+              "reps": "15",
+              "restSeconds": 60,
+              "tip": "Bras athlétiques."
+            },
+            {
+              "id": "w34_fri_ex4",
+              "name": "Gainage planche coudes",
+              "target": "Abdos",
+              "sets": 3,
+              "reps": "1m30",
+              "restSeconds": 60,
+              "tip": "Victoire ! Fin de saison au sommet !"
+            }
+          ]
+        },
+        "samedi": {
+          "dayId": "samedi",
+          "dayName": "Samedi",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total",
+          "exercises": []
+        },
+        "dimanche": {
+          "dayId": "dimanche",
+          "dayName": "Dimanche",
+          "isRest": true,
+          "restReason": "weekend",
+          "subtitle": "Repos Musculaire Total & Sommeil",
+          "exercises": []
+        }
+      }
+    }
+  ]
+}

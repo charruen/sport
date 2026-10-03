@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -7,9 +7,18 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#09090b",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export const metadata: Metadata = {
-  title: "Mon site",
-  description: "Description de mon site.",
+  title: "Coach Musculation Personnel — 34 Semaines",
+  description:
+    "Application web interactive de coaching sportif au poids du corps : progression granulaire sur 34 semaines pour maîtriser la pompe diamant, muscler les bras et dessiner les abdominaux.",
 };
 
 export default function RootLayout({
@@ -18,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${inter.variable} scroll-smooth`}>
-      <body className="min-h-screen antialiased bg-white text-gray-900">
+    <html lang="fr" className={`${inter.variable} scroll-smooth dark`}>
+      <body className="min-h-screen antialiased bg-zinc-950 text-zinc-100 selection:bg-emerald-500 selection:text-zinc-950">
         {children}
       </body>
     </html>

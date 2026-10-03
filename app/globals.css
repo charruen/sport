@@ -2,9 +2,8 @@
 
 @layer base {
   :root {
-    --bg-main: #ffffff;
-    --text-main: #111827;
-    --text-muted: #6b7280;
+    --bg-main: #09090b;
+    --text-main: #f4f4f5;
   }
 
   body {
@@ -17,15 +16,25 @@
   }
 }
 
-/* Utilitaires génériques */
-.text-muted {
-  color: var(--text-muted);
-}
-
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out forwards;
 }
