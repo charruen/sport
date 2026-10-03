@@ -19,6 +19,17 @@ export const metadata: Metadata = {
   title: "Coach Musculation Personnel — 34 Semaines",
   description:
     "Application web interactive de coaching sportif au poids du corps : progression granulaire sur 34 semaines pour maîtriser la pompe diamant, muscler les bras et dessiner les abdominaux.",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/apple-icon",
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Coach Sport",
+  },
 };
 
 export default function RootLayout({
