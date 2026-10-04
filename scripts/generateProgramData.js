@@ -244,7 +244,7 @@ for (let w = 1; w <= 34; w++) {
       dayId: 'mercredi',
       dayName: 'Mercredi',
       isRest: false,
-      subtitle: '16h30 — Focus Dos, Posture, Biceps & Mollets',
+      subtitle: '17h30 — Focus Dos, Posture, Biceps & Mollets',
       exercises: wednesdayExercises
     },
     jeudi: {
