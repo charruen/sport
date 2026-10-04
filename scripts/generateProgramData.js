@@ -229,7 +229,7 @@ for (let w = 1; w <= 34; w++) {
       dayId: 'lundi',
       dayName: 'Lundi',
       isRest: false,
-      subtitle: '17h30 — Focus Poussée, Triceps & Pectoraux',
+      subtitle: '18h00 — Focus Poussée, Triceps & Pectoraux',
       exercises: mondayExercises
     },
     mardi: {
@@ -244,7 +244,7 @@ for (let w = 1; w <= 34; w++) {
       dayId: 'mercredi',
       dayName: 'Mercredi',
       isRest: false,
-      subtitle: '17h30 — Focus Dos, Posture, Biceps & Mollets',
+      subtitle: '16h30 — Focus Dos, Posture, Biceps & Mollets',
       exercises: wednesdayExercises
     },
     jeudi: {
@@ -258,7 +258,7 @@ for (let w = 1; w <= 34; w++) {
       dayId: 'vendredi',
       dayName: 'Vendredi',
       isRest: false,
-      subtitle: '17h30 — Full Body Haut du Corps & Volume Bras',
+      subtitle: '16h30 — Full Body Haut du Corps & Volume Bras',
       exercises: fridayExercises
     },
     samedi: {

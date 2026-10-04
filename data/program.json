@@ -62,7 +62,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w1_mon_ex1",
@@ -105,7 +105,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w1_wed_ex1",
@@ -175,7 +175,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w1_fri_ex1",
@@ -236,7 +236,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w2_mon_ex1",
@@ -279,7 +279,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w2_wed_ex1",
@@ -349,7 +349,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w2_fri_ex1",
@@ -410,7 +410,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w3_mon_ex1",
@@ -453,7 +453,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w3_wed_ex1",
@@ -523,7 +523,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w3_fri_ex1",
@@ -584,7 +584,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w4_mon_ex1",
@@ -627,7 +627,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w4_wed_ex1",
@@ -697,7 +697,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w4_fri_ex1",
@@ -758,7 +758,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w5_mon_ex1",
@@ -801,7 +801,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w5_wed_ex1",
@@ -871,7 +871,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w5_fri_ex1",
@@ -932,7 +932,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w6_mon_ex1",
@@ -975,7 +975,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w6_wed_ex1",
@@ -1045,7 +1045,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w6_fri_ex1",
@@ -1106,7 +1106,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w7_mon_ex1",
@@ -1149,7 +1149,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w7_wed_ex1",
@@ -1219,7 +1219,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w7_fri_ex1",
@@ -1280,7 +1280,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w8_mon_ex1",
@@ -1323,7 +1323,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w8_wed_ex1",
@@ -1393,7 +1393,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w8_fri_ex1",
@@ -1454,7 +1454,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w9_mon_ex1",
@@ -1497,7 +1497,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w9_wed_ex1",
@@ -1567,7 +1567,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w9_fri_ex1",
@@ -1628,7 +1628,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w10_mon_ex1",
@@ -1671,7 +1671,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w10_wed_ex1",
@@ -1741,7 +1741,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w10_fri_ex1",
@@ -1802,7 +1802,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w11_mon_ex1",
@@ -1845,7 +1845,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w11_wed_ex1",
@@ -1915,7 +1915,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w11_fri_ex1",
@@ -1976,7 +1976,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w12_mon_ex1",
@@ -2019,7 +2019,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w12_wed_ex1",
@@ -2089,7 +2089,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w12_fri_ex1",
@@ -2150,7 +2150,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w13_mon_ex1",
@@ -2193,7 +2193,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w13_wed_ex1",
@@ -2263,7 +2263,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w13_fri_ex1",
@@ -2324,7 +2324,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w14_mon_ex1",
@@ -2367,7 +2367,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w14_wed_ex1",
@@ -2437,7 +2437,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w14_fri_ex1",
@@ -2498,7 +2498,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w15_mon_ex1",
@@ -2541,7 +2541,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w15_wed_ex1",
@@ -2611,7 +2611,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w15_fri_ex1",
@@ -2672,7 +2672,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w16_mon_ex1",
@@ -2715,7 +2715,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w16_wed_ex1",
@@ -2785,7 +2785,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w16_fri_ex1",
@@ -2846,7 +2846,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w17_mon_ex1",
@@ -2889,7 +2889,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w17_wed_ex1",
@@ -2959,7 +2959,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w17_fri_ex1",
@@ -3020,7 +3020,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w18_mon_ex1",
@@ -3063,7 +3063,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w18_wed_ex1",
@@ -3133,7 +3133,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w18_fri_ex1",
@@ -3194,7 +3194,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w19_mon_ex1",
@@ -3237,7 +3237,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w19_wed_ex1",
@@ -3307,7 +3307,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w19_fri_ex1",
@@ -3368,7 +3368,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w20_mon_ex1",
@@ -3411,7 +3411,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w20_wed_ex1",
@@ -3481,7 +3481,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w20_fri_ex1",
@@ -3542,7 +3542,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w21_mon_ex1",
@@ -3585,7 +3585,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w21_wed_ex1",
@@ -3655,7 +3655,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w21_fri_ex1",
@@ -3716,7 +3716,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w22_mon_ex1",
@@ -3759,7 +3759,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w22_wed_ex1",
@@ -3829,7 +3829,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w22_fri_ex1",
@@ -3890,7 +3890,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w23_mon_ex1",
@@ -3933,7 +3933,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w23_wed_ex1",
@@ -4003,7 +4003,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w23_fri_ex1",
@@ -4064,7 +4064,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w24_mon_ex1",
@@ -4107,7 +4107,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w24_wed_ex1",
@@ -4177,7 +4177,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w24_fri_ex1",
@@ -4238,7 +4238,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w25_mon_ex1",
@@ -4290,7 +4290,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w25_wed_ex1",
@@ -4360,7 +4360,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w25_fri_ex1",
@@ -4421,7 +4421,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w26_mon_ex1",
@@ -4473,7 +4473,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w26_wed_ex1",
@@ -4543,7 +4543,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w26_fri_ex1",
@@ -4604,7 +4604,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w27_mon_ex1",
@@ -4656,7 +4656,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w27_wed_ex1",
@@ -4726,7 +4726,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w27_fri_ex1",
@@ -4787,7 +4787,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w28_mon_ex1",
@@ -4839,7 +4839,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w28_wed_ex1",
@@ -4909,7 +4909,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w28_fri_ex1",
@@ -4970,7 +4970,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w29_mon_ex1",
@@ -5022,7 +5022,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w29_wed_ex1",
@@ -5092,7 +5092,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w29_fri_ex1",
@@ -5153,7 +5153,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w30_mon_ex1",
@@ -5205,7 +5205,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w30_wed_ex1",
@@ -5275,7 +5275,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w30_fri_ex1",
@@ -5336,7 +5336,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w31_mon_ex1",
@@ -5388,7 +5388,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w31_wed_ex1",
@@ -5458,7 +5458,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w31_fri_ex1",
@@ -5519,7 +5519,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w32_mon_ex1",
@@ -5571,7 +5571,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w32_wed_ex1",
@@ -5641,7 +5641,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w32_fri_ex1",
@@ -5702,7 +5702,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w33_mon_ex1",
@@ -5754,7 +5754,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w33_wed_ex1",
@@ -5824,7 +5824,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w33_fri_ex1",
@@ -5894,7 +5894,7 @@
           "dayId": "lundi",
           "dayName": "Lundi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Poussée, Triceps & Pectoraux",
+          "subtitle": "18h00 — Focus Poussée, Triceps & Pectoraux",
           "exercises": [
             {
               "id": "w34_mon_ex1",
@@ -5946,7 +5946,7 @@
           "dayId": "mercredi",
           "dayName": "Mercredi",
           "isRest": false,
-          "subtitle": "17h30 — Focus Dos, Posture, Biceps & Mollets",
+          "subtitle": "16h30 — Focus Dos, Posture, Biceps & Mollets",
           "exercises": [
             {
               "id": "w34_wed_ex1",
@@ -6016,7 +6016,7 @@
           "dayId": "vendredi",
           "dayName": "Vendredi",
           "isRest": false,
-          "subtitle": "17h30 — Full Body Haut du Corps & Volume Bras",
+          "subtitle": "16h30 — Full Body Haut du Corps & Volume Bras",
           "exercises": [
             {
               "id": "w34_fri_ex1",
