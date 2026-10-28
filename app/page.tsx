@@ -4,10 +4,11 @@ import React, { useState, useEffect, useMemo } from 'react';
 import Header from '@/components/Header';
 import DayTabs from '@/components/DayTabs';
 import ExerciseCard from '@/components/ExerciseCard';
+import EffortTimer from '@/components/EffortTimer';
 import RestTimer from '@/components/RestTimer';
 import EquipmentTip from '@/components/EquipmentTip';
 import programDataRaw from '@/data/program.json';
-import { ProgramData, WeekProgram, DaySchedule } from '@/types/program';
+import { ProgramData, WeekProgram, DaySchedule, Exercise } from '@/types/program';
 import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 import { Trophy, Dumbbell, Sparkles, Moon, Activity, CheckCircle2 } from 'lucide-react';
 
@@ -19,6 +20,12 @@ export default function Page() {
   const [progressMap, setProgressMap] = useState<Record<string, boolean>>({});
   const [isOnline, setIsOnline] = useState<boolean>(true);
   const [timerData, setTimerData] = useState<{ initialSeconds: number; exerciseName?: string } | null>(null);
+  const [effortTimerData, setEffortTimerData] = useState<{
+    initialSeconds: number;
+    perSide: boolean;
+    exercise: Exercise;
+    setIndex: number;
+  } | null>(null);
 
   // Charger la progression initiale depuis localStorage puis Supabase
   useEffect(() => {
@@ -68,9 +75,14 @@ export default function Page() {
   }, []);
 
   // Synchroniser avec Supabase lors des changements d'état
-  const handleToggleSet = async (exerciseId: string, setIndex: number, restSeconds: number) => {
+  const handleToggleSet = async (
+    exerciseId: string,
+    setIndex: number,
+    restSeconds: number,
+    forceCompleted?: boolean
+  ) => {
     const key = `${currentWeekNumber}_${activeDayId}_${exerciseId}_${setIndex}`;
-    const nextState = !progressMap[key];
+    const nextState = forceCompleted !== undefined ? forceCompleted : !progressMap[key];
 
     // Mise à jour locale immédiate
     const updatedMap = { ...progressMap, [key]: nextState };
@@ -118,6 +130,32 @@ export default function Page() {
         setIsOnline(false);
       }
     }
+  };
+
+  // Démarrer le chronomètre d'effort pour un exercice au temps
+  const handleStartEffortTimer = (
+    exercise: Exercise,
+    setIndex: number,
+    durationSeconds: number,
+    perSide: boolean
+  ) => {
+    setTimerData(null); // fermer le timer de repos s'il était actif
+    setEffortTimerData({
+      initialSeconds: durationSeconds,
+      perSide,
+      exercise,
+      setIndex,
+    });
+  };
+
+  // Callback quand l'effort est terminé
+  const handleEffortComplete = (setIndex: number, restSeconds: number) => {
+    if (!effortTimerData) return;
+    const { exercise } = effortTimerData;
+    setEffortTimerData(null);
+
+    // Valide la série et déclenche le RestTimer
+    handleToggleSet(exercise.id, setIndex, restSeconds, true);
   };
 
   // Obtenir la semaine active
@@ -264,6 +302,7 @@ export default function Page() {
                   exercise={ex}
                   completedSetIndexes={completedIndexes}
                   onToggleSet={handleToggleSet}
+                  onStartEffortTimer={handleStartEffortTimer}
                 />
               );
             })}
@@ -271,8 +310,22 @@ export default function Page() {
         )}
       </main>
 
-      {/* Minuteur de repos flottant (si actif) */}
-      {timerData && (
+      {/* Minuteur d'effort flottant (pour exercices au temps) */}
+      {effortTimerData && (
+        <EffortTimer
+          initialSeconds={effortTimerData.initialSeconds}
+          perSide={effortTimerData.perSide}
+          exerciseName={effortTimerData.exercise.name}
+          setIndex={effortTimerData.setIndex}
+          totalSets={effortTimerData.exercise.sets}
+          restSeconds={effortTimerData.exercise.restSeconds}
+          onComplete={handleEffortComplete}
+          onClose={() => setEffortTimerData(null)}
+        />
+      )}
+
+      {/* Minuteur de repos flottant (si actif et pas d'effort en cours) */}
+      {!effortTimerData && timerData && (
         <RestTimer
           initialSeconds={timerData.initialSeconds}
           exerciseName={timerData.exerciseName}
