@@ -20,6 +20,67 @@ function formatDate(date) {
   return `${d < 10 ? '0' + d : d} ${m} ${y}`;
 }
 
+function getWednesdayExercises(w) {
+  // Semaines 1, 2 et 3 : conserver l'historique antérieur intact
+  if (w < 4) {
+    return [
+      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '12', restSeconds: 60, tip: 'Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut.' },
+      { id: `w${w}_wed_ex2`, name: 'Rowing serviette / glissé au sol', target: 'Dos', sets: 3, reps: '12', restSeconds: 60, tip: 'Tire la serviette vers le haut du torse en contractant fort les omoplates.' },
+      { id: `w${w}_wed_ex3`, name: 'Extensions mollets sur marche', target: 'Mollets', sets: 3, reps: '15', restSeconds: 45, tip: 'Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe.' }
+    ];
+  }
+
+  // À partir de la Semaine 4 (Mercredi 28 octobre 2026) :
+  // 1. Superman statique au temps (isométrique)
+  let supermanDuration = '20s';
+  if (w >= 5 && w <= 8) supermanDuration = '25s';
+  else if (w >= 9 && w <= 16) supermanDuration = '30s';
+  else if (w >= 17 && w <= 24) supermanDuration = '35s';
+  else if (w >= 25) supermanDuration = '40s';
+
+  // 2. Tirage coudes au sol (Floor Elbow Drives)
+  let elbowReps = '10';
+  if (w >= 5 && w <= 12) elbowReps = '12';
+  else if (w >= 13) elbowReps = '15';
+
+  // 3. Extensions mollets sur marche ou 1 jambe
+  let calvesName = w === 4 ? 'Extensions mollets sur marche' : 'Extensions mollets 1 jambe';
+  let calvesReps = w === 4 ? '15' : w <= 9 ? '12/côté' : w <= 19 ? '15/côté' : w <= 24 ? '18/côté' : '20/côté';
+  let calvesTip = w === 4
+    ? 'Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe.'
+    : 'Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné.';
+
+  return [
+    {
+      id: `w${w}_wed_ex1`,
+      name: 'Superman statique (maintien)',
+      target: 'Dos',
+      sets: 3,
+      reps: supermanDuration,
+      restSeconds: 60,
+      tip: 'Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !'
+    },
+    {
+      id: `w${w}_wed_ex2`,
+      name: 'Tirage coudes au sol (Floor Elbow Drives)',
+      target: 'Dos',
+      sets: 3,
+      reps: elbowReps,
+      restSeconds: 60,
+      tip: 'Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !'
+    },
+    {
+      id: `w${w}_wed_ex3`,
+      name: calvesName,
+      target: 'Mollets',
+      sets: 3,
+      reps: calvesReps,
+      restSeconds: 45,
+      tip: calvesTip
+    }
+  ];
+}
+
 const weeks = [];
 const startDate = new Date(2026, 9, 5); // 5 Oct 2026
 
@@ -42,11 +103,12 @@ for (let w = 1; w <= 34; w++) {
   const currentPhase = phases.find(p => p.number === phaseNum);
 
   const pushInclineReps = Math.min(12, 8 + Math.floor((w - 1) % 4));
+  const dipsReps = w < 15 ? Math.min(12, 8 + Math.floor((w - 1) / 3)) : Math.min(15, 10 + Math.floor((w - 15) / 3));
   const plankSecs = w <= 4 ? 30 + (w - 1) * 5 : w <= 9 ? 45 + (w - 5) * 3 : w <= 14 ? 60 : w <= 24 ? 75 : 90;
   const plankText = `${plankSecs}s`;
 
   let mondayExercises = [];
-  let wednesdayExercises = [];
+  let wednesdayExercises = getWednesdayExercises(w);
   let thursdayExercises = [];
   let fridayExercises = [];
 
@@ -55,11 +117,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex1`, name: 'Pompes inclinées (meuble haut)', target: 'Triceps', sets: 3, reps: `${pushInclineReps}`, restSeconds: 90, tip: 'Mains sur le haut du bureau/commode. Poitrine vers le bord du meuble, corps bien gainé.' },
       { id: `w${w}_mon_ex2`, name: 'Dips sur chaise (genoux pliés)', target: 'Triceps', sets: 3, reps: `${Math.min(10, 8 + Math.floor((w-1)/2))}`, restSeconds: 60, tip: 'Mains sur le bord de la chaise stable, coudes vers l\'arrière à 90°. Pieds bien à plat.' },
       { id: `w${w}_mon_ex3`, name: 'Gainage planche sur coudes', target: 'Abdos', sets: 3, reps: plankText, restSeconds: 60, tip: 'Coudes sous les épaules. Serre fort les fessiers et le nombril. Ne laisse pas le bas du dos creuser.' }
-    ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '12', restSeconds: 60, tip: 'Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette / glissé au sol', target: 'Dos', sets: 3, reps: '12', restSeconds: 60, tip: 'Tire la serviette vers le haut du torse en contractant fort les omoplates.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets sur marche', target: 'Mollets', sets: 3, reps: '15', restSeconds: 45, tip: 'Pointe des pieds sur la marche, descends le talon puis monte au maximum sur la pointe.' }
     ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs contrôlés', target: 'Abdos', sets: 3, reps: `${12 + (w-1)}`, restSeconds: 60, tip: 'Mains aux tempes, décolle seulement les omoplates du sol en expirant. Ne tire pas la nuque.' },
@@ -77,11 +134,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex2`, name: 'Dips sur chaise', target: 'Triceps', sets: 3, reps: `${Math.min(12, 10 + Math.floor((w-5)/2))}`, restSeconds: 60, tip: 'Contrôle la descente, pousse fort dans les bras.' },
       { id: `w${w}_mon_ex3`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: plankText, restSeconds: 60, tip: 'Cale tes pieds contre le mur pour éviter tout glissement du tapis !' }
     ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Conserve la nuque alignée avec la colonne.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Serre les omoplates comme pour pincer une feuille entre tes épaules.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets à 1 jambe', target: 'Mollets', sets: 3, reps: '12/côté', restSeconds: 45, tip: 'Équilibre sur une jambe, pointe au maximum.' }
-    ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs contrôlés', target: 'Abdos', sets: 3, reps: '15', restSeconds: 60, tip: 'Pense à contracter fort le sommet des abdos.' },
       { id: `w${w}_thu_ex2`, name: 'Gainage commando', target: 'Abdos', sets: 3, reps: '6 reps', restSeconds: 60, tip: 'Passe des coudes aux mains une par une en gardant le bassin immobile.' },
@@ -97,11 +149,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex1`, name: 'Pompes sur les genoux au sol', target: 'Pectoraux', sets: 3, reps: `${Math.min(8, 6 + Math.floor((w-10)/2))}`, restSeconds: 90, tip: 'Genoux posés sur tapis, hanches alignées. Descends la poitrine jusqu\'à frôler le sol.' },
       { id: `w${w}_mon_ex2`, name: 'Dips sur chaise', target: 'Triceps', sets: 3, reps: '12', restSeconds: 60, tip: 'Garde les pieds plus éloignés pour augmenter le travail.' },
       { id: `w${w}_mon_ex3`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: '1m', restSeconds: 60, tip: 'Respiration lente et contrôlée.' }
-    ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Maintien de 1s au sommet.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Traction lente et contrôlée.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets 1 jambe', target: 'Mollets', sets: 3, reps: '15/côté', restSeconds: 45, tip: 'Montée lente, redescente freinée.' }
     ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs inversés (relevé de bassin)', target: 'Abdos', sets: 3, reps: '12', restSeconds: 60, tip: 'Allongé sur le dos, monte les genoux vers la poitrine en décollant légèrement le bas du dos.' },
@@ -119,11 +166,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex2`, name: 'Dips chaise (jambes tendues)', target: 'Triceps', sets: 3, reps: '10', restSeconds: 60, tip: 'Talons au sol, jambes tendues pour augmenter la résistance.' },
       { id: `w${w}_mon_ex3`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: '1m15', restSeconds: 60, tip: 'Ne laisse pas s\'affaisser les épaules.' }
     ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman avec maintien', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Bloque 2s en haut.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Tension constante.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets 1 jambe', target: 'Mollets', sets: 3, reps: '15/côté', restSeconds: 45, tip: 'Ampleur maximale.' }
-    ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs inversés', target: 'Abdos', sets: 3, reps: '15', restSeconds: 60, tip: 'Mouvement fluide sans élan.' },
       { id: `w${w}_thu_ex2`, name: 'Touches d\'épaule en planche', target: 'Abdos', sets: 3, reps: '15/côté', restSeconds: 60, tip: 'Rhythm contrôlé.' },
@@ -139,11 +181,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex1`, name: 'Pompes Classiques au sol', target: 'Pectoraux', sets: 3, reps: `${Math.min(10, 6 + (w-20))}`, restSeconds: 90, tip: 'Descente complète, coudes rentrés à 45°.' },
       { id: `w${w}_mon_ex2`, name: 'Dips chaise (jambes tendues)', target: 'Triceps', sets: 3, reps: '12', restSeconds: 60, tip: 'Fais travailler l\'arrière du bras.' },
       { id: `w${w}_mon_ex3`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: '1m15', restSeconds: 60, tip: 'Stabilité irréprochable.' }
-    ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Dos solide et renforcé.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Contraction dorsale.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets 1 jambe', target: 'Mollets', sets: 3, reps: '18/côté', restSeconds: 45, tip: 'Bonne brûlure du mollet.' }
     ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs contrôlés', target: 'Abdos', sets: 3, reps: '20', restSeconds: 60, tip: 'Décolle bien les omoplates.' },
@@ -162,11 +199,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex3`, name: 'Dips chaise (jambes tendues)', target: 'Triceps', sets: 3, reps: '12', restSeconds: 60, tip: 'Maintien de la brûlure.' },
       { id: `w${w}_mon_ex4`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: '1m20', restSeconds: 60, tip: 'Sangle bien verrouillée.' }
     ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Posturale & gainage dorsal.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Focus grand dorsal.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets 1 jambe', target: 'Mollets', sets: 3, reps: '20/côté', restSeconds: 45, tip: 'Finition pointe des pieds.' }
-    ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs V-Ups modifiés', target: 'Abdos', sets: 3, reps: '12', restSeconds: 60, tip: 'Monte simultanément les épaules et les genoux.' },
       { id: `w${w}_thu_ex2`, name: 'Touches d\'épaule en planche', target: 'Abdos', sets: 3, reps: '15/côté', restSeconds: 60, tip: 'Contrôle parfait.' },
@@ -184,11 +216,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex3`, name: 'Dips chaise (jambes tendues)', target: 'Triceps', sets: 3, reps: '15', restSeconds: 60, tip: 'Volume triceps maximal.' },
       { id: `w${w}_mon_ex4`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: '1m30', restSeconds: 60, tip: 'Sangle abdominale dessinée.' }
     ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Excellente posture.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Dos sculpté.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets 1 jambe', target: 'Mollets', sets: 3, reps: '20/côté', restSeconds: 45, tip: 'Mollets galbés.' }
-    ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs V-Ups modifiés', target: 'Abdos', sets: 3, reps: '15', restSeconds: 60, tip: 'Contraction profonde du grand droit.' },
       { id: `w${w}_thu_ex2`, name: 'Touches d\'épaule en planche', target: 'Abdos', sets: 3, reps: '15/côté', restSeconds: 60, tip: 'Gainage anti-rotation.' },
@@ -205,11 +232,6 @@ for (let w = 1; w <= 34; w++) {
       { id: `w${w}_mon_ex2`, name: 'POMPES DIAMANT (OBJECTIF ATTEINT!)', target: 'Triceps', sets: 2, reps: '8', restSeconds: 90, tip: '🏆 MAINS EN TRIANGLE. Mouvement d\'expert maîtrisé à la perfection !' },
       { id: `w${w}_mon_ex3`, name: 'Dips chaise (jambes tendues)', target: 'Triceps', sets: 3, reps: '15', restSeconds: 60, tip: 'Triceps puissants.' },
       { id: `w${w}_mon_ex4`, name: 'Gainage planche coudes', target: 'Abdos', sets: 3, reps: '1m30', restSeconds: 60, tip: 'Plaque abdominale en béton.' }
-    ];
-    wednesdayExercises = [
-      { id: `w${w}_wed_ex1`, name: 'Superman au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'Dos athlétique.' },
-      { id: `w${w}_wed_ex2`, name: 'Rowing serviette au sol', target: 'Dos', sets: 3, reps: '15', restSeconds: 60, tip: 'V-Taper parfait.' },
-      { id: `w${w}_wed_ex3`, name: 'Extensions mollets 1 jambe', target: 'Mollets', sets: 3, reps: '20/côté', restSeconds: 45, tip: 'Finition musculaire.' }
     ];
     thursdayExercises = [
       { id: `w${w}_thu_ex1`, name: 'Crunchs V-Ups', target: 'Abdos', sets: 3, reps: '15', restSeconds: 60, tip: 'Abdos 6-pack visibles.' },
@@ -302,4 +324,4 @@ if (!fs.existsSync(dataDir)) {
 
 const outputPath = path.join(dataDir, 'program.json');
 fs.writeFileSync(outputPath, JSON.stringify(fullData, null, 2), 'utf-8');
-console.log(`Programme généré avec succès dans ${outputPath} ! (${weeks.length} semaines)`);
+console.log(`Programme régénéré avec succès dans ${outputPath} ! (${weeks.length} semaines)`);

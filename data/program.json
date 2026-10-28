@@ -631,21 +631,21 @@
           "exercises": [
             {
               "id": "w4_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "12",
+              "reps": "20s",
               "restSeconds": 60,
-              "tip": "Allongé sur le ventre, décolle légèrement la poitrine et les jambes. Bloque 1s en haut."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w4_wed_ex2",
-              "name": "Rowing serviette / glissé au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "12",
+              "reps": "10",
               "restSeconds": 60,
-              "tip": "Tire la serviette vers le haut du torse en contractant fort les omoplates."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w4_wed_ex3",
@@ -805,30 +805,30 @@
           "exercises": [
             {
               "id": "w5_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "25s",
               "restSeconds": 60,
-              "tip": "Conserve la nuque alignée avec la colonne."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w5_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w5_wed_ex3",
-              "name": "Extensions mollets à 1 jambe",
+              "name": "Extensions mollets 1 jambe",
               "target": "Mollets",
               "sets": 3,
               "reps": "12/côté",
               "restSeconds": 45,
-              "tip": "Équilibre sur une jambe, pointe au maximum."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -979,30 +979,30 @@
           "exercises": [
             {
               "id": "w6_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "25s",
               "restSeconds": 60,
-              "tip": "Conserve la nuque alignée avec la colonne."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w6_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w6_wed_ex3",
-              "name": "Extensions mollets à 1 jambe",
+              "name": "Extensions mollets 1 jambe",
               "target": "Mollets",
               "sets": 3,
               "reps": "12/côté",
               "restSeconds": 45,
-              "tip": "Équilibre sur une jambe, pointe au maximum."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -1153,30 +1153,30 @@
           "exercises": [
             {
               "id": "w7_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "25s",
               "restSeconds": 60,
-              "tip": "Conserve la nuque alignée avec la colonne."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w7_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w7_wed_ex3",
-              "name": "Extensions mollets à 1 jambe",
+              "name": "Extensions mollets 1 jambe",
               "target": "Mollets",
               "sets": 3,
               "reps": "12/côté",
               "restSeconds": 45,
-              "tip": "Équilibre sur une jambe, pointe au maximum."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -1327,30 +1327,30 @@
           "exercises": [
             {
               "id": "w8_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "25s",
               "restSeconds": 60,
-              "tip": "Conserve la nuque alignée avec la colonne."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w8_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w8_wed_ex3",
-              "name": "Extensions mollets à 1 jambe",
+              "name": "Extensions mollets 1 jambe",
               "target": "Mollets",
               "sets": 3,
               "reps": "12/côté",
               "restSeconds": 45,
-              "tip": "Équilibre sur une jambe, pointe au maximum."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -1501,30 +1501,30 @@
           "exercises": [
             {
               "id": "w9_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Conserve la nuque alignée avec la colonne."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w9_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Serre les omoplates comme pour pincer une feuille entre tes épaules."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w9_wed_ex3",
-              "name": "Extensions mollets à 1 jambe",
+              "name": "Extensions mollets 1 jambe",
               "target": "Mollets",
               "sets": 3,
               "reps": "12/côté",
               "restSeconds": 45,
-              "tip": "Équilibre sur une jambe, pointe au maximum."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -1675,21 +1675,21 @@
           "exercises": [
             {
               "id": "w10_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Maintien de 1s au sommet."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w10_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Traction lente et contrôlée."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w10_wed_ex3",
@@ -1698,7 +1698,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Montée lente, redescente freinée."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -1849,21 +1849,21 @@
           "exercises": [
             {
               "id": "w11_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Maintien de 1s au sommet."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w11_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Traction lente et contrôlée."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w11_wed_ex3",
@@ -1872,7 +1872,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Montée lente, redescente freinée."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -2023,21 +2023,21 @@
           "exercises": [
             {
               "id": "w12_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Maintien de 1s au sommet."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w12_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "12",
               "restSeconds": 60,
-              "tip": "Traction lente et contrôlée."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w12_wed_ex3",
@@ -2046,7 +2046,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Montée lente, redescente freinée."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -2197,21 +2197,21 @@
           "exercises": [
             {
               "id": "w13_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Maintien de 1s au sommet."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w13_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Traction lente et contrôlée."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w13_wed_ex3",
@@ -2220,7 +2220,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Montée lente, redescente freinée."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -2371,21 +2371,21 @@
           "exercises": [
             {
               "id": "w14_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Maintien de 1s au sommet."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w14_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Traction lente et contrôlée."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w14_wed_ex3",
@@ -2394,7 +2394,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Montée lente, redescente freinée."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -2545,21 +2545,21 @@
           "exercises": [
             {
               "id": "w15_wed_ex1",
-              "name": "Superman avec maintien",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Bloque 2s en haut."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w15_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Tension constante."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w15_wed_ex3",
@@ -2568,7 +2568,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Ampleur maximale."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -2719,21 +2719,21 @@
           "exercises": [
             {
               "id": "w16_wed_ex1",
-              "name": "Superman avec maintien",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "30s",
               "restSeconds": 60,
-              "tip": "Bloque 2s en haut."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w16_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Tension constante."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w16_wed_ex3",
@@ -2742,7 +2742,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Ampleur maximale."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -2893,21 +2893,21 @@
           "exercises": [
             {
               "id": "w17_wed_ex1",
-              "name": "Superman avec maintien",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Bloque 2s en haut."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w17_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Tension constante."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w17_wed_ex3",
@@ -2916,7 +2916,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Ampleur maximale."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -3067,21 +3067,21 @@
           "exercises": [
             {
               "id": "w18_wed_ex1",
-              "name": "Superman avec maintien",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Bloque 2s en haut."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w18_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Tension constante."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w18_wed_ex3",
@@ -3090,7 +3090,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Ampleur maximale."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -3241,21 +3241,21 @@
           "exercises": [
             {
               "id": "w19_wed_ex1",
-              "name": "Superman avec maintien",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Bloque 2s en haut."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w19_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Tension constante."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w19_wed_ex3",
@@ -3264,7 +3264,7 @@
               "sets": 3,
               "reps": "15/côté",
               "restSeconds": 45,
-              "tip": "Ampleur maximale."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -3415,21 +3415,21 @@
           "exercises": [
             {
               "id": "w20_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Dos solide et renforcé."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w20_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Contraction dorsale."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w20_wed_ex3",
@@ -3438,7 +3438,7 @@
               "sets": 3,
               "reps": "18/côté",
               "restSeconds": 45,
-              "tip": "Bonne brûlure du mollet."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -3589,21 +3589,21 @@
           "exercises": [
             {
               "id": "w21_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Dos solide et renforcé."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w21_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Contraction dorsale."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w21_wed_ex3",
@@ -3612,7 +3612,7 @@
               "sets": 3,
               "reps": "18/côté",
               "restSeconds": 45,
-              "tip": "Bonne brûlure du mollet."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -3763,21 +3763,21 @@
           "exercises": [
             {
               "id": "w22_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Dos solide et renforcé."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w22_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Contraction dorsale."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w22_wed_ex3",
@@ -3786,7 +3786,7 @@
               "sets": 3,
               "reps": "18/côté",
               "restSeconds": 45,
-              "tip": "Bonne brûlure du mollet."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -3937,21 +3937,21 @@
           "exercises": [
             {
               "id": "w23_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Dos solide et renforcé."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w23_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Contraction dorsale."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w23_wed_ex3",
@@ -3960,7 +3960,7 @@
               "sets": 3,
               "reps": "18/côté",
               "restSeconds": 45,
-              "tip": "Bonne brûlure du mollet."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -4111,21 +4111,21 @@
           "exercises": [
             {
               "id": "w24_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "35s",
               "restSeconds": 60,
-              "tip": "Dos solide et renforcé."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w24_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Contraction dorsale."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w24_wed_ex3",
@@ -4134,7 +4134,7 @@
               "sets": 3,
               "reps": "18/côté",
               "restSeconds": 45,
-              "tip": "Bonne brûlure du mollet."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -4294,21 +4294,21 @@
           "exercises": [
             {
               "id": "w25_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Posturale & gainage dorsal."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w25_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Focus grand dorsal."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w25_wed_ex3",
@@ -4317,7 +4317,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Finition pointe des pieds."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -4477,21 +4477,21 @@
           "exercises": [
             {
               "id": "w26_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Posturale & gainage dorsal."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w26_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Focus grand dorsal."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w26_wed_ex3",
@@ -4500,7 +4500,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Finition pointe des pieds."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -4660,21 +4660,21 @@
           "exercises": [
             {
               "id": "w27_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Posturale & gainage dorsal."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w27_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Focus grand dorsal."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w27_wed_ex3",
@@ -4683,7 +4683,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Finition pointe des pieds."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -4843,21 +4843,21 @@
           "exercises": [
             {
               "id": "w28_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Posturale & gainage dorsal."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w28_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Focus grand dorsal."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w28_wed_ex3",
@@ -4866,7 +4866,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Finition pointe des pieds."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -5026,21 +5026,21 @@
           "exercises": [
             {
               "id": "w29_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Excellente posture."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w29_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Dos sculpté."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w29_wed_ex3",
@@ -5049,7 +5049,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Mollets galbés."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -5209,21 +5209,21 @@
           "exercises": [
             {
               "id": "w30_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Excellente posture."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w30_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Dos sculpté."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w30_wed_ex3",
@@ -5232,7 +5232,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Mollets galbés."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -5392,21 +5392,21 @@
           "exercises": [
             {
               "id": "w31_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Excellente posture."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w31_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Dos sculpté."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w31_wed_ex3",
@@ -5415,7 +5415,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Mollets galbés."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -5575,21 +5575,21 @@
           "exercises": [
             {
               "id": "w32_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Excellente posture."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w32_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "Dos sculpté."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w32_wed_ex3",
@@ -5598,7 +5598,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Mollets galbés."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -5758,21 +5758,21 @@
           "exercises": [
             {
               "id": "w33_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Dos athlétique."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w33_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "V-Taper parfait."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w33_wed_ex3",
@@ -5781,7 +5781,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Finition musculaire."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
@@ -5950,21 +5950,21 @@
           "exercises": [
             {
               "id": "w34_wed_ex1",
-              "name": "Superman au sol",
+              "name": "Superman statique (maintien)",
               "target": "Dos",
               "sets": 3,
-              "reps": "15",
+              "reps": "40s",
               "restSeconds": 60,
-              "tip": "Dos athlétique."
+              "tip": "Allongé sur le ventre, décolle légèrement le buste et les cuisses. Serre fort les fessiers et le haut du dos, nuque alignée. Maintiens la position sans bouger !"
             },
             {
               "id": "w34_wed_ex2",
-              "name": "Rowing serviette au sol",
+              "name": "Tirage coudes au sol (Floor Elbow Drives)",
               "target": "Dos",
               "sets": 3,
               "reps": "15",
               "restSeconds": 60,
-              "tip": "V-Taper parfait."
+              "tip": "Allongé sur le dos, genoux pliés, pieds à plat. Enfonce puissamment tes coudes dans le sol à 90° pour décoller les omoplates et le haut du dos de 5 à 10 cm. Bloque 2s au sommet en serrant les dorsaux !"
             },
             {
               "id": "w34_wed_ex3",
@@ -5973,7 +5973,7 @@
               "sets": 3,
               "reps": "20/côté",
               "restSeconds": 45,
-              "tip": "Finition musculaire."
+              "tip": "Équilibre sur une jambe, monte au maximum sur la pointe et redescends freiné."
             }
           ]
         },
